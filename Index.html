@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أعتذر منكِ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8e1e7;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            color: #d63384;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .heart {
+            color: red;
+            font-size: 40px;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        button {
+            background: #d63384;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #a72565;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>أعتذر منكِ</h1>
+        <p>عزيزتي، أعلم أنني كنت مخطئًا عندما رميت الورقة عليكِ، ولم يكن ذلك تصرفًا لائقًا. لم أقصد إزعاجك أو مضايقتك.</p>
+        <p>أرجو أن تتقبلي اعتذاري بكل صدق، وأعدك بأنني سأكون أكثر انتباهًا لمشاعركِ في المستقبل.</p>
+        <div class="heart">❤️</div>
+        <button onclick="alert('شكراً لمنحي فرصة جديدة! 💖')">هل تسامحينني؟</button>
+    </div>
+</body>
+</html>
